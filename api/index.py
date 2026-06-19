@@ -6,9 +6,9 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 
-TITLE_ID = "Your Title id"
-SECRET_KEY = "You Title id Secret Key"
-API_KEY = "Your Oculus Api Key"
+TITLE_ID = "195A5"
+SECRET_KEY = "4FY383BUII1EC4HO98NCTA84BB849OQMGXKTOX6O9ATSBY88UF"
+API_KEY = "OC|1192819923908990|2e756ba6219df35ec53a5f2dc0f2db8e"
 
 def get_auth_headers():
     return {"Content-Type": "application/json", "X-SecretKey": SECRET_KEY}

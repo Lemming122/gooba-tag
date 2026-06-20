@@ -16,7 +16,7 @@ def get_auth_headers():
 
 @app.route('/api/TD', methods=['POST'])
 def titled_data():
-    return jsonify({"MOTD":" Put your motd u want like (WELCOME TOO GOOBA TAG OUR OWNERS ARE HARMONY AND AVII) "})
+    return jsonify({"MOTD":" WELCOME TOO GOOBA TAG OUR OWNERS ARE HARMONY AND AVII "})
 
 @app.route("/api/PlayFabAuthentication", methods=["POST"])
 def playfab_authentication():

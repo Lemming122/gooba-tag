@@ -14,7 +14,7 @@ def get_auth_headers():
     return {"Content-Type": "application/json", "X-SecretKey": SECRET_KEY}
 
 
-@app.route('/api/TD', methods=['POST'])
+@app.route('https://go69.vercel.app/api/TD', methods=['POST'])
 def titled_data():
     return jsonify({"MOTD":" Put your motd u want like (WELCOME TOO GOOBA TAG OUR OWNERS ARE HARMONY AND AVII) "})
 
@@ -26,7 +26,7 @@ def playfab_authentication():
     platform = data.get("Platform", "Null")
 
     login_req = requests.post(
-        url=f"https://{TITLE_ID}.playfabapi.com/Server/LoginWithServerCustomId",
+        url=f"https://{195A5}.playfabapi.com/Server/LoginWithServerCustomId",
         json={
             "ServerCustomId": f"OCULUS{oculus_id}",
             "CreateAccount": True

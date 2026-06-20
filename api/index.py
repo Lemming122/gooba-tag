@@ -26,7 +26,7 @@ def playfab_authentication():
     platform = data.get("Platform", "Null")
 
     login_req = requests.post(
-        url=f"https://{195A5}.playfabapi.com/Server/LoginWithServerCustomId",
+        url=f"https://195A5.playfabapi.com/Server/LoginWithServerCustomId",
         json={
             "ServerCustomId": f"OCULUS{oculus_id}",
             "CreateAccount": True
